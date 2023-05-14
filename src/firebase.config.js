@@ -3,14 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAbHXOcoyukrWqpml9bnlAy7sDOwyMmfRQ",
-  authDomain: "mychatapp-3e320.firebaseapp.com",
-  databaseURL: "https://mychatapp-3e320-default-rtdb.firebaseio.com",
-  projectId: "mychatapp-3e320",
-  storageBucket: "mychatapp-3e320.appspot.com",
-  messagingSenderId: "911985111405",
-  appId: "1:911985111405:web:99af2fb546b1dc891d6a64",
-  measurementId: "G-EJSWEVB1R7",
+  apiKey: "AIzaSyAFkcYhCmhjxW3-Euk-PS_qXUgL8Q4YA2M",
+  authDomain: "react-otp-login-a54c1.firebaseapp.com",
+  projectId: "react-otp-login-a54c1",
+  storageBucket: "react-otp-login-a54c1.appspot.com",
+  messagingSenderId: "314348751441",
+  appId: "1:314348751441:web:03c4d2a4a4d86c31290670"
 };
 
 // Initialize Firebase
