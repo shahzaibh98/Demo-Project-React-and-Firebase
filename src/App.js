@@ -1,8 +1,6 @@
-import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { useState } from "react";
-import { Toaster, toast } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import "react-phone-input-2/lib/style.css";
-import { auth } from "./firebase.config";
 
 import SignUp from "./pages/signup";
 import SuccessLogin from "./pages/successLogin";

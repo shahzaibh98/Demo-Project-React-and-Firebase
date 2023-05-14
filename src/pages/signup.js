@@ -1,10 +1,9 @@
-import { BsFillShieldLockFill, BsTelephoneFill } from "react-icons/bs";
-import { CgSpinner } from "react-icons/cg";
-
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import OtpInput from "otp-input-react";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
+import { BsFillShieldLockFill, BsTelephoneFill } from "react-icons/bs";
+import { CgSpinner } from "react-icons/cg";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { auth } from "../firebase.config";
